@@ -1,0 +1,12 @@
+
+{'lr': 0.00025, 'min_lr': 0.0, 'weight_decay': 0.05, 'num_epoch': 500, 'warmup_epochs': 40, 'batch_size': 100, 'clip_grad': 0.8, 'mask_ratio': 0.75, 'patch_size': 16, 'embed_dim': 1024, 'decoder_embed_dim': 512, 'depth': 24, 'num_heads': 16, 'decoder_num_heads': 16, 'mlp_ratio': 1.0, 'root_path': '.', 'output_path': './results/fmri_pretrain/30-01-2024-15-47-13', 'seed': 2022, 'roi': 'VC', 'aug_times': 1, 'num_sub_limit': None, 'include_hcp': True, 'include_kam': True, 'accum_iter': 1, 'use_nature_img_loss': False, 'img_recon_weight': 0.5, 'focus_range': None, 'focus_rate': 0.6, 'local_rank': 0}
+Traceback (most recent call last):
+  File "/uio/hume/student-u47/eyyubg/pc/Desktop/mind-vis/code/stageA1_mbm_pretrain.py", line 242, in <module>
+    main(config)
+  File "/uio/hume/student-u47/eyyubg/pc/Desktop/mind-vis/code/stageA1_mbm_pretrain.py", line 122, in main
+    dataset_pretrain = hcp_dataset(path=os.path.join(config.root_path, 'data/HCP/npz'), roi=config.roi, patch_size=config.patch_size,
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/uio/hume/student-u47/eyyubg/pc/Desktop/mind-vis/code/dataset.py", line 100, in __init__
+    for c, sub in enumerate(os.listdir(path)):
+                            ^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: './data/HCP/npz'

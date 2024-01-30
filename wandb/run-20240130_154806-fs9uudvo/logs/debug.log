@@ -1,0 +1,28 @@
+2024-01-30 15:48:06,353 INFO    MainThread:16199 [wandb_setup.py:_flush():76] Current SDK version is 0.16.2
+2024-01-30 15:48:06,353 INFO    MainThread:16199 [wandb_setup.py:_flush():76] Configure stats pid to 16199
+2024-01-30 15:48:06,353 INFO    MainThread:16199 [wandb_setup.py:_flush():76] Loading settings from /uio/hume/student-u47/eyyubg/.config/wandb/settings
+2024-01-30 15:48:06,354 INFO    MainThread:16199 [wandb_setup.py:_flush():76] Loading settings from /uio/hume/student-u47/eyyubg/pc/Desktop/mind-vis/wandb/settings
+2024-01-30 15:48:06,354 INFO    MainThread:16199 [wandb_setup.py:_flush():76] Loading settings from environment variables: {'start_method': 'thread', 'root_dir': '.'}
+2024-01-30 15:48:06,355 INFO    MainThread:16199 [wandb_setup.py:_flush():76] Applying setup settings: {'_disable_service': False}
+2024-01-30 15:48:06,356 INFO    MainThread:16199 [wandb_setup.py:_flush():76] Inferring run settings from compute environment: {'program_relpath': 'code/stageA1_mbm_pretrain.py', 'program_abspath': '/uio/hume/student-u47/eyyubg/pc/Desktop/mind-vis/code/stageA1_mbm_pretrain.py', 'program': '/uio/hume/student-u47/eyyubg/pc/Desktop/mind-vis/code/stageA1_mbm_pretrain.py'}
+2024-01-30 15:48:06,356 INFO    MainThread:16199 [wandb_setup.py:_flush():76] Applying login settings: {'anonymous': 'allow'}
+2024-01-30 15:48:06,357 INFO    MainThread:16199 [wandb_setup.py:_flush():76] Applying login settings: {'api_key': '***REDACTED***'}
+2024-01-30 15:48:06,357 INFO    MainThread:16199 [wandb_init.py:_log_setup():526] Logging user logs to ./wandb/run-20240130_154806-fs9uudvo/logs/debug.log
+2024-01-30 15:48:06,357 INFO    MainThread:16199 [wandb_init.py:_log_setup():527] Logging internal logs to ./wandb/run-20240130_154806-fs9uudvo/logs/debug-internal.log
+2024-01-30 15:48:06,358 INFO    MainThread:16199 [wandb_init.py:init():566] calling init triggers
+2024-01-30 15:48:06,358 INFO    MainThread:16199 [wandb_init.py:init():573] wandb.init called with sweep_config: {}
+config: {'lr': 0.00025, 'min_lr': 0.0, 'weight_decay': 0.05, 'num_epoch': 500, 'warmup_epochs': 40, 'batch_size': 100, 'clip_grad': 0.8, 'mask_ratio': 0.75, 'patch_size': 16, 'embed_dim': 1024, 'decoder_embed_dim': 512, 'depth': 24, 'num_heads': 16, 'decoder_num_heads': 16, 'mlp_ratio': 1.0, 'root_path': '.', 'output_path': './results/fmri_pretrain/30-01-2024-15-47-13', 'seed': 2022, 'roi': 'VC', 'aug_times': 1, 'num_sub_limit': None, 'include_hcp': True, 'include_kam': True, 'accum_iter': 1, 'use_nature_img_loss': False, 'img_recon_weight': 0.5, 'focus_range': None, 'focus_rate': 0.6, 'local_rank': 0}
+2024-01-30 15:48:06,358 INFO    MainThread:16199 [wandb_init.py:init():616] starting backend
+2024-01-30 15:48:06,359 INFO    MainThread:16199 [wandb_init.py:init():620] setting up manager
+2024-01-30 15:48:06,385 INFO    MainThread:16199 [wandb_init.py:init():628] backend started and connected
+2024-01-30 15:48:06,390 INFO    MainThread:16199 [wandb_init.py:init():720] updated telemetry
+2024-01-30 15:48:06,443 INFO    MainThread:16199 [wandb_init.py:init():753] communicating run to backend with 90.0 second timeout
+2024-01-30 15:48:06,939 INFO    MainThread:16199 [wandb_run.py:_on_init():2254] communicating current version
+2024-01-30 15:48:06,972 INFO    MainThread:16199 [wandb_run.py:_on_init():2263] got version response 
+2024-01-30 15:48:06,972 INFO    MainThread:16199 [wandb_init.py:init():804] starting run threads in backend
+2024-01-30 15:48:08,500 INFO    MainThread:16199 [wandb_run.py:_console_start():2233] atexit reg
+2024-01-30 15:48:08,500 INFO    MainThread:16199 [wandb_run.py:_redirect():2088] redirect: wrap_raw
+2024-01-30 15:48:08,501 INFO    MainThread:16199 [wandb_run.py:_redirect():2153] Wrapping output streams.
+2024-01-30 15:48:08,501 INFO    MainThread:16199 [wandb_run.py:_redirect():2178] Redirects installed.
+2024-01-30 15:48:08,502 INFO    MainThread:16199 [wandb_init.py:init():847] run started, returning control to user process
+2024-01-30 15:48:19,044 WARNING MsgRouterThr:16199 [router.py:message_loop():77] message_loop has been closed

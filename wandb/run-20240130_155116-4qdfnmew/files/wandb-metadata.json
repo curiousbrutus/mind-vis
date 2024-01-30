@@ -1,0 +1,50 @@
+{
+    "os": "Linux-5.14.0-362.13.1.el9_3.x86_64-x86_64-with-glibc2.34",
+    "python": "3.11.5",
+    "heartbeatAt": "2024-01-30T14:51:17.746542",
+    "startedAt": "2024-01-30T14:51:16.673007",
+    "docker": null,
+    "cuda": null,
+    "args": [],
+    "state": "running",
+    "program": "/uio/hume/student-u47/eyyubg/pc/Desktop/mind-vis/code/stageA1_mbm_pretrain.py",
+    "codePathLocal": "code/stageA1_mbm_pretrain.py",
+    "codePath": "code/stageA1_mbm_pretrain.py",
+    "git": {
+        "remote": "https://github.com/curiousbrutus/mind-vis.git",
+        "commit": "08d53868fe7471f01dddc560b8e877ba4375d229"
+    },
+    "email": "eyyub.gvn@gmail.com",
+    "root": "/uio/hume/student-u47/eyyubg/pc/Desktop/mind-vis",
+    "host": "ic-ifi-rh9-018",
+    "username": "eyyubg",
+    "executable": "/opt/ifi/anaconda3/bin/python",
+    "cpu_count": 2,
+    "cpu_count_logical": 2,
+    "cpu_freq": {
+        "current": 2992.968,
+        "min": 0.0,
+        "max": 0.0
+    },
+    "cpu_freq_per_core": [
+        {
+            "current": 2992.968,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 2992.968,
+            "min": 0.0,
+            "max": 0.0
+        }
+    ],
+    "disk": {
+        "/": {
+            "total": 49.990234375,
+            "used": 30.13376235961914
+        }
+    },
+    "memory": {
+        "total": 3.562397003173828
+    }
+}

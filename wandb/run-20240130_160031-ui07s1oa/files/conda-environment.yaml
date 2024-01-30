@@ -1,0 +1,4 @@
+name: mind-vis
+channels:
+  - defaults
+prefix: /uio/hume/student-u47/eyyubg/.conda/envs/mind-vis

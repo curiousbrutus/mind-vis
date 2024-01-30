@@ -1,0 +1,123 @@
+wandb_version: 1
+
+lr:
+  desc: null
+  value: 0.00025
+min_lr:
+  desc: null
+  value: 0.0
+weight_decay:
+  desc: null
+  value: 0.05
+num_epoch:
+  desc: null
+  value: 500
+warmup_epochs:
+  desc: null
+  value: 40
+batch_size:
+  desc: null
+  value: 100
+clip_grad:
+  desc: null
+  value: 0.8
+mask_ratio:
+  desc: null
+  value: 0.75
+patch_size:
+  desc: null
+  value: 16
+embed_dim:
+  desc: null
+  value: 1024
+decoder_embed_dim:
+  desc: null
+  value: 512
+depth:
+  desc: null
+  value: 24
+num_heads:
+  desc: null
+  value: 16
+decoder_num_heads:
+  desc: null
+  value: 16
+mlp_ratio:
+  desc: null
+  value: 1.0
+root_path:
+  desc: null
+  value: .
+output_path:
+  desc: null
+  value: ./results/fmri_pretrain/30-01-2024-16-00-29
+seed:
+  desc: null
+  value: 2022
+roi:
+  desc: null
+  value: VC
+aug_times:
+  desc: null
+  value: 1
+num_sub_limit:
+  desc: null
+  value: null
+include_hcp:
+  desc: null
+  value: true
+include_kam:
+  desc: null
+  value: true
+accum_iter:
+  desc: null
+  value: 1
+use_nature_img_loss:
+  desc: null
+  value: false
+img_recon_weight:
+  desc: null
+  value: 0.5
+focus_range:
+  desc: null
+  value: null
+focus_rate:
+  desc: null
+  value: 0.6
+local_rank:
+  desc: null
+  value: 0
+_wandb:
+  desc: null
+  value:
+    python_version: 3.11.5
+    cli_version: 0.16.2
+    framework: huggingface
+    huggingface_version: 4.32.1
+    is_jupyter_run: false
+    is_kaggle_kernel: false
+    start_time: 1706626832.104407
+    t:
+      1:
+      - 1
+      - 11
+      - 41
+      - 49
+      - 55
+      - 63
+      2:
+      - 1
+      - 11
+      - 41
+      - 49
+      - 55
+      - 63
+      3:
+      - 16
+      - 23
+      4: 3.11.5
+      5: 0.16.2
+      6: 4.32.1
+      8:
+      - 8
+      13: linux-x86_64
